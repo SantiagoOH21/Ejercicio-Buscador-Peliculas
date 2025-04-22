@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador Películas</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+      defer
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>API MovieDB</h1>
+      <div class="form-group">
+        <h2>Busca aquí tu película</h2>
+      </div>
+      <form id="form" class="form-group">
+        <input
+          type="search"
+          class="form-control"
+          id="searchId"
+          placeholder="buscar"
+        />
+        <input type="submit" value="Buscar Película" class="btn btn-primary" />
+      </form>
+      <section
+        id="movies"
+        class="d-flex flex-wrap gap-1 justify-content-evenly"
+      ></section>
+    </div>
+  </body>
+</html>
