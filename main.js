@@ -85,8 +85,3 @@ const searchMovie = async (event) => {
 };
 
 formSearch.addEventListener("submit", searchMovie);
-
-//Imagen -> poster_path
-//Titulo -> title
-//Descripcion -> overview
-//Genero -> genres:name:
